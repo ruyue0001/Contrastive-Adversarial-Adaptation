@@ -6,9 +6,9 @@ Motivation: Instead of directly seeking matched sentences across the source and 
 
 You can view our NAACL 2022 paper [Domain Confused Contrastive Learning for Unsupervised Domain Adaptation](https://arxiv.org/abs/2207.04564).
 
-![image](Figs/motivation.png)
+<img src="Figs/motivation.png" width="40%">
 
-![image](Figs/gif.gif)
+<img src="Figs/gif.gif" width="40%">
 
 ## Dataset
 - Amazon Benchmark 2-classes [Data](
