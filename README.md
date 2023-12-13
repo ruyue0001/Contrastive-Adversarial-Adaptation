@@ -2,7 +2,7 @@
 
 We propose the concept of domain puzzles which  discard domain-related information to confuse the model, making it difficult to differentiate which domain these puzzles belong to.
 
-Motivation: Instead of directly seeking matched sentences across the source and target domains which is infeasible, we propose to pull the source (target) data and its corresponding domain puzzles closer to reduce the domain discrepancy.
+Motivation: Instead of directly seeking matched sentences across the source and target domains which may cause noises, we propose to pull the source (target) data and its corresponding domain puzzles closer to reduce the domain discrepancy. Our model searches for a most domain-challenging direction using adversarial perturbation and exquisitely crafts domain confused augmentations as positive pairs in contrastive loss, then it contrastively encourages the model to pull representations towards the other domain.
 
 You can view our NAACL 2022 paper [Domain Confused Contrastive Learning for Unsupervised Domain Adaptation](https://arxiv.org/abs/2207.04564).
 
